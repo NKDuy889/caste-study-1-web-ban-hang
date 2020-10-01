@@ -1,0 +1,21 @@
+
+.contentgt {
+    margin-right: 124px;
+    margin-left: 131px;
+    margin-top: 100px;
+    border: 1px outset black;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #e5e1e1;
+}
+
+.line {
+    font-size: 20px;
+    font-style: italic;
+
+}
+.picturegt{
+    margin-left: 235px;
+}

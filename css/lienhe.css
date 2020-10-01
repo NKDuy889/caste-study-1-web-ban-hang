@@ -1,0 +1,26 @@
+.contact{
+    width: 100%;
+    padding-left: 40px;
+    background: lightyellow;
+}
+.contact1 {
+    width: 40%;
+    float: left;
+    padding-left: 240px;
+}
+.contact2 {
+    width: 40%;
+    float: left;
+}
+.contact-small{
+    font-family: "Bodoni MT";
+    font-style: italic;
+    color: darkred;
+}
+#carousel {
+    background: url('../assets/cat-looking-at-butterfly-digital-art-w5.jpg');
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}

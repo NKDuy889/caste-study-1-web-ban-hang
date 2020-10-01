@@ -1,0 +1,99 @@
+.menu ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.menu li {
+    color: black;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 5px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+    color: royalblue;
+    overflow: hidden;
+    background: linear-gradient(to right, white ,white  50%, black 50%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.menu a:hover {
+    background-position: 0 100%;
+}
+
+.container {
+    width: 100%;;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: indianred;
+
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    text-align: right;
+    padding-top: 18px;
+}
+
+.name-company {
+    width: 5%;
+    float: left;
+    padding-top: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+#carousel {
+    background: url('../assets/adorable-cat.jpg');
+    height: 450px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-top: 70px;
+}
+.dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin: 20px;
+}
+
+.dot-active {
+    background-color: #888888;
+}
+.nameshop{
+    margin-top: 45px;
+    text-align: center;
+    font-family: "Cooper Black";
+    font-size: 100px;
+}
+.icon{
+    text-align: center;
+    margin-top: 50px;
+}
+

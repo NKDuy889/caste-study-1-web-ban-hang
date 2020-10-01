@@ -1,0 +1,61 @@
+.content {
+    width: 100%;
+    height: 300px;
+    background: #e5e1e1;
+}
+
+.column.middle {
+    width: 50%;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
+
+/*.row:after {
+    content: "";
+    display: table-column;
+    clear: both;
+}
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}*/
+.thanhtuu {
+    text-align: center;
+    font-family: Zapf Chancery, cursive;
+}
+
+.name {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Eras Bold ITC";
+}
+
+.picture {
+
+}
+
+.name2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Zapf Chancery, cursive;
+}
+.name3{
+    width: 100%;
+    height: 500px;
+}
+.name3small{
+    float: left;
+    padding-top: 30px;
+    padding-left: 130px;
+}
+.linethanhtu{
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}

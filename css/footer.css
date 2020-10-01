@@ -1,0 +1,46 @@
+.footer {
+    width: 100%;
+    background: black;
+    height: 250px;
+}
+
+.namefooter {
+    font-size: 25px;
+    padding-left: 37px;
+}
+
+.grid {
+    float: left;
+    width: 33.33%;
+    color: white;
+
+}
+
+.grid.middle {
+    width: 50%;
+}
+
+/*.footer:after {
+    content: "";
+    display: table-column;
+    clear: both;
+}
+@media screen and (max-width:600px) {
+    .grid {
+        width: 100%;
+    }
+}*/
+.find {
+    list-style: none;
+
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    background: black;
+}
+
+.find:hover {
+    cursor: pointer;
+}
